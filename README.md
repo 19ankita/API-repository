@@ -95,8 +95,6 @@ Visit: `http://127.0.0.1:5000/`
 uvicorn application_fastapi:app --reload
 ```
 
-Visit Swagger UI: http://127.0.0.1:8000/docs
-
 ---
 
 ## 🔁 API Endpoints (FastAPI & Flask)
