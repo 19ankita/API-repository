@@ -14,6 +14,15 @@ class Post(BaseModel):
     published: bool = True
     rating: Optional[int] = None
     
+    class Config:
+        schema_extra = {
+                "example": {
+                    "title": "My First Blog",
+                    "content": "This is the content of the blog post.",
+                    "published": True,
+                    "rating": 5
+                    }
+        }
     
 my_posts = [{"title": "title of post 1",
              "content": "content of post 1",
@@ -61,7 +70,7 @@ def get_posts():
 #     return {"data": post}
 
 #Adding an unique number to the posts
-@app.post("/posts", status_code=status.HTTP_201_CREATED)
+@app.post("/posts", status_code=status.HTTP_201_CREATED, response_model=Post)
 def create_posts(post: Post):
     post_dict = post.dict()
     post_dict['id'] = randrange(1, 100000)
