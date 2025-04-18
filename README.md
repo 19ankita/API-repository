@@ -1,4 +1,4 @@
-# 🧃 API Repository
+# API Repository
 
 Welcome to the **API-repository** — a personal playground of modern API design and development using **Flask** and **FastAPI** frameworks.
 
@@ -120,9 +120,3 @@ Visit Swagger UI: `http://127.0.0.1:8000/docs`
 
 ---
 
-
-```
-
----
-
-Let me know if you want a version with badges, screenshots (Postman / Swagger UI), or hosted demo links!
