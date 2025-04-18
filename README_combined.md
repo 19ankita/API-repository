@@ -77,8 +77,6 @@ A basic blog-like post API using FastAPI with in-memory data (no database).
 uvicorn main:app --reload
 ```
 
-📚 Docs at: [http://127.0.0.1:8000/docs](http://127.0.0.1:8000/docs)
-
 ---
 
 ## 🧠 Use Case & Learning Goals
@@ -90,8 +88,3 @@ uvicorn main:app --reload
 
 ---
 
-## ✍ Author
-
-**Ankita Sarkar** – [@19ankita](https://github.com/19ankita)
-
----
