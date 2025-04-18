@@ -45,8 +45,6 @@ A RESTful API to manage drinks (like beverages) using **FastAPI**, **SQLite**, a
 uvicorn application_fastapi:app --reload
 ```
 
-📚 Docs available at: [http://127.0.0.1:8000/docs](http://127.0.0.1:8000/docs)
-
 ---
 
 ## 💬 2. FastAPI Post API (`main.py`)
@@ -76,6 +74,7 @@ A basic blog-like post API using FastAPI with in-memory data (no database).
 ```bash
 uvicorn main:app --reload
 ```
+Visit Swagger UI: http://127.0.0.1:8000/docs
 
 ---
 
